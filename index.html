@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,76 +10,78 @@
     <link rel="stylesheet" href="./grid.css">
     <link rel="stylesheet" href="./reponsive.css">
 </head>
-<body>  
+
+<body>
+    <!-- cmt test -->
     <div class="btn">
         <button class="aa"> aaa</button>
         <button class="bb"> b</button>
     </div>
-  <div class="vc" style="background-color:black ; height: 200px; width: 200px;">    
-    <div style="background-color: red; width: 100px; height: 100px;" class="cc open ">
-     </div>
-        <div style="background-color: rgb(84, 40, 40); width: 100px; height: 100px; " class="ccc"></div>
-        
-    </div>  
-
-        <div class="loading"></div>
-        <div class="icon">
-            <div class="ti-arrow-right"></div>
+    <div class="vc" style="background-color:black ; height: 200px; width: 200px;">
+        <div style="background-color: red; width: 100px; height: 100px;" class="cc open ">
         </div>
+        <div style="background-color: rgb(84, 40, 40); width: 100px; height: 100px; " class="ccc"></div>
+
+    </div>
+
+    <div class="loading"></div>
+    <div class="icon">
+        <div class="ti-arrow-right"></div>
+    </div>
 
 
-        <div class="grid" style="text-align: center;">
-            <div class="grid__row">
-                <div class="col l-3 m-4 c-12 ">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+    <div class="grid" style="text-align: center;">
+        <div class="grid__row">
+            <div class="col l-3 m-4 c-12 ">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
-                <div class="col l-3 m-4 c-12">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+            </div>
+            <div class="col l-3 m-4 c-12">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
-                <div class="col l-3 m-4 c-12">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+            </div>
+            <div class="col l-3 m-4 c-12">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
-                <div class="col l-3 m-4 c-12">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+            </div>
+            <div class="col l-3 m-4 c-12">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
             </div>
         </div>
+    </div>
 
 
 
 
 
-        <script> 
+    <script>
         var ccc = document.querySelector('.ccc')
-            var cc = document.querySelector('.cc')
-            var aa = document.querySelector('.aa')
-            var bb = document.querySelector('.bb') 
-            // aa.onclick = function() {
-            //     cc.classList.add('open');
-            // }
-            aa.addEventListener('click',function(){
-                aa.classList.add('t');
-                cc.classList.add('open');
+        var cc = document.querySelector('.cc')
+        var aa = document.querySelector('.aa')
+        var bb = document.querySelector('.bb')
+        // aa.onclick = function() {
+        //     cc.classList.add('open');
+        // }
+        aa.addEventListener('click', function () {
+            aa.classList.add('t');
+            cc.classList.add('open');
 
-                ccc.classList.remove('open');
+            ccc.classList.remove('open');
 
-            })
-           bb.addEventListener('click',function(){
-               
+        })
+        bb.addEventListener('click', function () {
+
             cc.classList.remove('open');
 
             ccc.classList.add('open');
-           })
-            
-        </script>
+        })
+
+    </script>
     <label for="check"> check</label>
     <input type="checkbox" name="" id="check" class="checked">
     <label for="check" class="overlay"></label>
@@ -87,4 +90,5 @@
     </div>
 
 </body>
+
 </html>
