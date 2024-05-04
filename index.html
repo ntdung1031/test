@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,82 +10,285 @@
     <link rel="stylesheet" href="./grid.css">
     <link rel="stylesheet" href="./reponsive.css">
 </head>
-<body>  
+
+<body>
     <div class="btn">
         <button class="aa"> aaa</button>
         <button class="bb"> b</button>
     </div>
-  <div class="vc" style="background-color:black ; height: 200px; width: 200px;">    
-    <div style="background-color: red; width: 100px; height: 100px;" class="cc open ">
-     </div>
+    <div class="vc" style="background-color:black ; height: 200px; width: 200px;">
+        <div style="background-color: red; width: 100px; height: 100px;" class="cc open "></div>
         <div style="background-color: rgb(84, 40, 40); width: 100px; height: 100px; " class="ccc"></div>
-        
-    </div>  
 
-        <div class="loading"></div>
-        <div class="icon">
-            <div class="ti-arrow-right"></div>
-        </div>
+    </div>
+
+    <div class="loading"></div>
+    <div class="icon">
+        <div class="ti-arrow-right"></div>
+    </div>
 
 
-        <div class="grid" style="text-align: center;">
-            <div class="grid__row">
-                <div class="col l-3 m-4 c-12 ">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+    <div class="grid" style="text-align: center;">
+        <div class="grid__row">
+            <div class="col l-3 m-4 c-12 ">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
-                <div class="col l-3 m-4 c-12">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+            </div>
+            <div class="col l-3 m-4 c-12">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
-                <div class="col l-3 m-4 c-12">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+            </div>
+            <div class="col l-3 m-4 c-12">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
-                <div class="col l-3 m-4 c-12">
-                    <div class="course-item">
-                        <h1>Course 1</h1>
-                    </div>
+            </div>
+            <div class="col l-3 m-4 c-12">
+                <div class="course-item">
+                    <h1>Course 1</h1>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="tamgiac">
+
+    </div>
 
 
 
 
-
-        <script> 
+    <script>
         var ccc = document.querySelector('.ccc')
-            var cc = document.querySelector('.cc')
-            var aa = document.querySelector('.aa')
-            var bb = document.querySelector('.bb') 
-            // aa.onclick = function() {
-            //     cc.classList.add('open');
-            // }
-            aa.addEventListener('click',function(){
-                aa.classList.add('t');
-                cc.classList.add('open');
+        var cc = document.querySelector('.cc')
+        var aa = document.querySelector('.aa')
+        var bb = document.querySelector('.bb')
+        // aa.onclick = function() {
+        //     cc.classList.add('open');
+        // }
+        aa.addEventListener('click', function () {
+            aa.classList.add('t');
+            cc.classList.add('open');
 
-                ccc.classList.remove('open');
+            ccc.classList.remove('open');
 
-            })
-           bb.addEventListener('click',function(){
-               
+        })
+        bb.addEventListener('click', function () {
+
             cc.classList.remove('open');
 
             ccc.classList.add('open');
-           })
-            
-        </script>
-    <label for="check"> check</label>
-    <input type="checkbox" name="" id="check" class="checked">
+        })
+
+    </script>
+    <label for="check" style="font-size: 20px; background-color: black; color: white;"> check</label>
+    <input type="checkbox" name="" id="check" class="checked" hidden>
     <label for="check" class="overlay"></label>
     <div class="menu">
-        <label for="check" class="out">exit</label>
+        <label style="font-size: 20px; background-color: black; color: white;" for="check" class="out">exit</label>
+    </div>
+
+    <div class="bg-img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eum atque quidem eveniet porro laboriosam
+            vitae corrupti! Laudantium quibusdam expedita cupiditate. Voluptatum harum animi inventore non aliquam culpa
+            molestiae, reprehenderit esse a consequuntur dolore exercitationem eaque libero dolorum reiciendis labore
+            laboriosam omnis officia veniam ipsam eveniet adipisci? Alias incidunt temporibus repudiandae eaque expedita
+            minus explicabo error maiores rem exercitationem sed, voluptatibus beatae nobis tempore veniam odit ipsum
+            quis laboriosam eos neque ducimus eius cum? Modi quae voluptas eligendi, vero nihil assumenda. Neque quis
+            officia, et maiores ab cupiditate ad explicabo! Nesciunt obcaecati iure nam corporis officiis at ab illo cum
+            pariatur exercitationem praesentium minus dolorum quas quisquam assumenda nemo, et dolor! Quos libero
+            adipisci maxime dolores, in suscipit, voluptatum, et dignissimos ut similique aperiam facilis omnis laborum?
+            Iure sit, illo voluptate consectetur in at blanditiis ad voluptas facere doloremque atque inventore adipisci
+            ullam tempora omnis amet hic iusto ratione quia ipsum quas ut minima recusandae! Optio reprehenderit quo
+            facere rem reiciendis repellendus atque dolores facilis, cum, obcaecati officia cumque itaque, tempora
+            voluptatem aut esse ad vero nisi ab minima unde sed. Repellendus illum aliquam rem molestias facilis
+            incidunt harum, cupiditate rerum aspernatur distinctio, atque sunt porro consequatur odit, sapiente ipsum
+            sit illo nostrum. Sapiente provident quis, iusto amet alias earum aut ipsam at quae repellendus adipisci
+            maxime? Eum eaque esse nobis, dolorum reiciendis amet odio architecto, dolorem quas, dolores fugit vitae
+            ducimus numquam sint quibusdam placeat perspiciatis odit pariatur illum! Unde dicta porro explicabo totam
+            culpa sit nesciunt vero facilis consequuntur cum ratione animi iste ipsum quidem, nemo quam adipisci
+            dolores! Eum reiciendis neque possimus, eos quo aperiam enim in minus non reprehenderit. Doloribus, non qui,
+            provident illo cupiditate sint minima voluptates enim eveniet dolor velit repellat accusantium inventore
+            suscipit sit error delectus quasi. Ducimus quos autem saepe, itaque eos officia blanditiis ut dolorum
+
+
+        </p>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="table-item">Họ tên</th>
+                <th class="table-item">Ngày sinh</th>
+                <th class="table-item">Giới tính</th>
+                <th colspan="2" class="table-item">Số điện thoại</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table-item">Nguyễn Văn A</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn B</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn C</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn A</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn B</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn C</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn A</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn B</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+            <tr>
+                <td class="table-item">Nguyễn Văn C</td>
+                <td class="table-item">10/10/2002</td>
+                <td class="table-item">Nam</td>
+                <td class="table-item">0812315354</td>
+                <td class="table-item">0812315354</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <table style="border: 1px solid black;width: 100%; border-collapse: collapse; margin: 30px 0;" cellpadding="20" ;>
+        <tr>
+            <td colspan="4" class="table-item">Tilte</td>
+
+        </tr>
+        <tr>
+            <td colspan="2" class="table-item">subtitle</td>
+
+            <td colspan="2" class="table-item">subtitle</td>
+
+        </tr>
+        <tr style="height: 30px;">
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-item">subtitle</td>
+
+            <td colspan="2" class="table-item">subtitle</td>
+
+        </tr>
+    </table>
+
+    <table style="border: 2px solid black;width: 100%; border-collapse: collapse; margin: 50px 0;" cellpadding="20" ;>
+        <tr style="height: 30px;">
+            <td rowspan="2" class="table-item"></td>
+            <td colspan="2" class="table-item"></td>
+
+            <td rowspan="2" class="table-item"></td>
+        </tr>
+        <tr style="height: 30px;">
+
+
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+        </tr>
+        <tr style="height: 30px;">
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+        </tr>
+        <tr style="height: 30px;">
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+            <td class="table-item"></td>
+        </tr>
+    </table>
+
+    <form action="https://api-gateway.fullstack.edu.vn/action_page.php" autocomplete="off"
+        style="margin: 50px 0; font-size: 20px;">
+        <label style="width: 50px;" for="username">Tên đăng nhập</label>
+        <input type="text" placeholder="tên đăng nhập" id="username" name="username" required><br>
+        <label for="email">email</label>
+        <input type="email" name="email nè" id="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"> <br>
+        <label for="pass" style="padding: 0 24px;">mật khẩu</label>
+        <input type="password" placeholder="passwords" id="pass" name="pass" required><br>
+        <input type="submit" value="Đăng nhập">
+    </form>
+    <form action="/action_page.php">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+        <input type="submit">
+    </form>
+
+    <div class="div" style="background-color: black; height: 200px; width: 200px;overflow: scroll;">
+        <div class="" style="background-color: red; height: 50px;width: 50px;"></div>
+        <div class="" style="background-color: blue; height: 50px;width: 50px;"></div>
+        <div class="" style="background-color: yellow; height: 50px;width: 50px;"></div>
+        <div class="" style="background-color: olive; height: 50px;width: 50px;"></div>
+        <div class="" style="background-color: orange; height: 50px;width: 50px;"></div>
+    </div>
+
+    <div class="container" style="display: flex;">
+        <div class="item item-1">item 1</div>
+        <div class="item item-2">item 2</div>
+        <div class="item item-3">item 3</div>
+        <div class="item item-4">item 4</div>
+        <div class="item item-5">item 5</div>
+        <div class="item item-6">item 6</div>
+        <div class="item item-7">item 7</div>
+        <div class="item item-8">item 8</div>
+    </div>
+
+    <div style="height: 20px; width: 40px; background-color: red;" class="link">
+        <p class="desc-test">sssss</p>
+    </div>
+    <div style="height: 20px; width: 40px; background-color: red;" class="link">
+        <p class="desc-test">aaa</p>
     </div>
 
 </body>
+
 </html>
